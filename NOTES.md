@@ -67,6 +67,25 @@ Primary areas of Logic Each Divided Into Components
 
 -Utils
 
+Remember SOLID design principles- Single responsibility, Open/closed, Liskov Substitution, Interface Segregation, Dependency Inversion - "program to an interface not to an implementation. 
+
+he broad goal of the SOLID principles is to reduce dependencies so that engineers change one area of software without impacting others. Additionally, they’re intended to make designs easier to understand, maintain, and extend. Ultimately, using these design principles makes it easier for software engineers to avoid issues and to build adaptive, effective, and agile software.
+
+# Begin coding notes
+
+1. Start with creating and positioning the containers for the page layout
+2. Add the JSX for the permanent elements
+
+
+# Referenced Documentation and Resources
+
+## Forms/Controlled Components and State Structure Best Practices
+ https://react.dev/learn/choosing-the-state-structure *Best Source*
+ https://www.theodinproject.com/lessons/react-new-more-on-state#controlled-components
+
+## Keys
+
+## State Management
 
 
 
