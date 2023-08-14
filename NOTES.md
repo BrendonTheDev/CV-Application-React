@@ -87,6 +87,17 @@ he broad goal of the SOLID principles is to reduce dependencies so that engineer
 
 ## State Management
 
+# 8/14/2022 Begin By Choosing The State Structure "Or lack thereof"
+
+When referencing the React.dev documentation, one section recommends using controlled components to control the state of elements that come with there own internal state. "inputs in this instance". However, the section on choosing the state structure recommends to use minimal state when possible to reduce complexity. Also, in example projects that I referenced, no one else set their own state to control their form components. For now I am going to build the form section without useState() and then ask the community for assistance.  
+
+# 8/14/2022 Decided to use a controlled component for form. 
+I Sussessfully created the component with useState, handleChange, and HandleSubmit. I am going to create the same componet using react-hook-form and see which I prefer.
+
+I still need to send and store the data onSubmit. In my last project I used localStorage, but for this project I will use AWS or Firebase so that I may expand my knowledge of working with the server. 
+
+I created form components using standard React and react-hook-form. I may prefer the react-hook-form due to the ease of validation and integrated APIs and functions. 
+
 
 
 

@@ -1,16 +1,25 @@
-import { useState } from 'react'
+import HookForm from "./components/HookForm"
+import PersonalInfoForm from "./components/PersonalForm"
+// import HookForm from './components/HookForm'
 
 
 function App() {
   //state at time
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div className="master-container">
         <div className="left input-container">
           {/* Need to use Controlled Components instead of default state for form inputs. */}
-
+           <div className="personal-container">
+            <HookForm />
+           </div>
+           <div className="experience-container">
+            
+           </div>
+           <div className="education-container">
+            
+           </div>
 
         </div>
 
